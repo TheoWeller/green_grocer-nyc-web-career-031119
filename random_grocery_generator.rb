@@ -64,3 +64,4 @@ def consolidate_cart(items)
 	end
 end
 puts cart
+binding.pry
