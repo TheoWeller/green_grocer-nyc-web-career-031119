@@ -1,5 +1,4 @@
 def consolidate_cart(cart)
-  # code here
   new_cart = {}
   cart.each_with_index do |item, i|
     item.each do |food, data|
