@@ -1,5 +1,5 @@
 def consolidate_cart(cart)
-  consolidated_cart = Hash.new
+  consolidated_cart = {}
   cart.each_with_index do |items, index|
     items.each do |key, value|
       if consolidate_cart[key]
