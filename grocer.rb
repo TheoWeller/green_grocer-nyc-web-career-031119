@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   # code here
-  new_cart = {}#consolicates cart and adds any quantities together
+  new_cart = {}
   cart.each_with_index do |item, i|
     item.each do |food, data|
       if new_cart[food]
